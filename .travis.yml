@@ -1,4 +1,10 @@
 language: ruby
 rvm:
 - 2.4.4
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: DKvj14C6xeEcbk+2Vos0yLkFAQV61sKXgr4JuiuTSZ+bK35nJAmZtg7h9XBe1QaOojLIcVIWchMxvAgEWFfgILwIeiUljU/wdAtzR5+QxxzvvJXlJs6A8yk/XkmtwrGYcD9jLFU3QPdTRAOv6CT60xN0Gk+25oaW243HUvh/0OR9nlMMBt4KSjQwsp5AJHhflKrHO6uDpTCjcDpx1WVjE1B1J57z0OlTIeVZ7EqSZAfAUsZwHXsHDd5hxQHIX59Ynz/ieSVWSmaHdodjyP/AY7/O9Fsxl/aE11OTRvc5g0KWj79tS/JGxBtMv1wH7qjx912zx83LHPj1Jq/mrAVTSZre+SttwXRG2s8oja8tIesEtApAx6vdTcYF+0Jv2Wg2fcyp4SZF+G6xJ8V1m+2916DXQBU1rS+B0B12FECeXLV8+/DJ1P5cM+HeivC44IJ1iXjT7+4N8c3wyRzBLqk1wzPCWbRzgYaklsq2ESrvwm+SojV/jIN5am+4g6M7nYJ0kZckHtCdlIbA9Q5LvEYhIKutVce1Mhz/CrXR2zgovi6pHIbv9m+UVhcBtqNmELnYiXBVRMd2rSAvOVvtsSxnytFiEwbEQbJHNd+9sOMcnMdRvi1pyZwYUPo1GfneV+gi6gVptyN0KpCVh4mhyRM4Q78Kk46HfeeP9OsQ0FekX+k=
+  app: Projet-pizza
+  on:
+    repo: nzeneyannick/Projet-pizza
