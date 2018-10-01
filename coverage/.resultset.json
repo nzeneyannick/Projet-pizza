@@ -1,0 +1,43 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/home/cabox/workspace/test/controllers/testjson_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/cabox/workspace/test/models/order_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/cabox/workspace/test/models/orderline_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/cabox/workspace/test/models/pizza_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1538380896
+  }
+}
