@@ -1,13 +1,13 @@
 class OrdersController < ApplicationController
-  skip_before_action :verify_authenticity_token, :only => [:create]
+  skip_before_action :verify_authenticity_token, :only => [:createOrder]
   
   def createOrder
     p "ordersController"
-    @nom = params[:client_name]
+    @nom = params[:name]
     @adresse = params[:adress]
     p @adresse
     @pizzas = params[:pizzas]
-    newOrder = Order.new(:client_name => @nom, :adress => @adresse)
+    newOrder = Order.new(:name => @nom, :adress => @adresse)
     newOrder.save
     p @pizzas
     @erros="Erros : [";
